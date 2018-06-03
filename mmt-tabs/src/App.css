@@ -1,0 +1,504 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px auto;
+  max-width: 880px;
+  padding: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.react-tabs__tab-list {
+  float: right;
+  margin-top: -40px;
+}
+
+.react-tabs__tab-list li {
+  color: #009de6;
+  border: 1px solid #009de6;
+  border-bottom: 0;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.react-tabs__tab-list li:not(:last-child) {
+  margin-right: 7px;
+}
+
+.react-tabs__tab-list li:after {
+  font-family: Font Awesome\ 5 Free;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: bold;
+  content: "\f107";
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.react-tabs__tab-list .react-tabs__tab--selected {
+  border-bottom: 1px solid white;
+}
+
+.react-tabs__tab-list .react-tabs__tab--selected:after {
+  content: "\f106";
+}
+
+.react-tabs {
+  border: 1px solid #009de6;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 5px 0 10px;
+}
+
+.timeStamp {
+  font-size: 12px;
+  opacity: .6;
+  font-style: italic;
+}
+
+.desc {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.questions {
+  margin-bottom: 10px;
+}
+
+.answer-list {
+  padding-top: 15px;
+  border-top: 1px solid #e3e3e3;
+  margin-top: 15px;
+}
+
+.vote-panel {
+  float: left;
+  width: 30px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.vote-panel div {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.vote-panel .fa {
+  color: #104e93;
+  font-size: 19px;
+}
+
+.vote-panel .fa.active {
+  color: green;
+}
+
+.vote-panel .fa:before {
+  font-size: 30px;
+  line-height: 15px;
+  float: left;
+}
+
+.right-panel {
+  overflow: hidden;
+}
+
+.social-links {
+  margin: 5px 0 0;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  font-size: 12px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #104e93;
+}
+
+.social-links li:not(:last-child) {
+  border-right: 1px solid #009de6;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.firstRow>div {
+  width: 33.33%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.firstRow input {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0 10px
+}
+
+.firstRow .row {
+  width: 100%;
+}
+
+.firstRow .row textarea {
+  box-sizing: border-box;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 50px;
+}
+
+.char-left {
+  color: #666666;
+  font-size: 11px;
+  float: right;
+  margin: 0 15px 0 0;
+}
+
+button {
+  width: 110px;
+  height: 36px;
+  margin-left: 15px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 2px;
+  background: #d50000;
+}
+
+textarea.error,
+input.is-invalid-input {
+  border: 1px solid #d50000;
+  color: black;
+}
+
+textarea.error.hide {
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.error:not(textarea) {
+  color: #d50000;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.form {
+  background: #f4f4f4;
+  padding: 10px 0 20px;
+}
+
+.dep-tt {
+  display: inline-block;
+}
+
+.booking-row {
+  background: blue;
+  margin: 10px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2692b2+0,26a8ce+100 */
+  background: #2692b2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2692b2 0%, #26a8ce 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #2692b2 0%, #26a8ce 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2692b2 0%, #26a8ce 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2692b2', endColorstr='#26a8ce', GradientType=0);
+  /* IE6-9 */
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.panel {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.tab-one:before,
+.tab-one:after {
+  content: ' ';
+  clear: both;
+  display: table;
+}
+
+.tab-one .panel:first-child {
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.tab-one .panel:nth-child(2) {
+  padding-left: 20px;
+}
+
+.booking-row .date {
+  float: left;
+}
+
+.booking-row .time {
+  float: right;
+}
+
+.flight-name {
+  font-size: 12px;
+  color: #575757;
+}
+
+.flight-details {
+  margin: 15px 0;
+}
+
+.flight-details:before,
+.flight-details:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.flight-details .flight-left {
+  width: 105px;
+  float: left;
+}
+
+.flight-details .right {
+  width: 105px;
+  float: right;
+}
+
+.tr-tm {
+  font-size: 12px;
+  color: #575757;
+  width: 46%;
+  margin: 0 auto;
+}
+
+.tr-tm div {
+  text-align: center;
+}
+
+.tr-tm span.before {
+  height: 5px;
+  position: relative;
+  margin-top: 3px;
+  float: left;
+  width: 5px;
+  border: 1px solid #666;
+  background: #cccccc;
+  border-radius: 50%;
+}
+
+.tr-tm span.before:before {
+  content: ' ';
+  width: 15px;
+  height: 1px;
+  float: left;
+  background: #666;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+.tr-tm span.after {
+  height: 5px;
+  position: relative;
+  width: 5px;
+  margin-top: 3px;
+  float: right;
+  border: 1px solid #666;
+  background: #cccccc;
+  border-radius: 50%;
+}
+
+.tr-tm span.after:after {
+  content: ' ';
+  width: 15px;
+  height: 1px;
+  float: right;
+  background: #666;
+  margin-top: 2px;
+  margin-right: 6px;
+}
+
+.flight-details .date-time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.flight-details .locations {
+  font-size: 11px;
+  color: #575757;
+}
+
+.travel-loc span:first-child {
+  font-size: 18px;
+}
+
+.travel-loc span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bagg-tt {
+  font-size: 12px;
+  font-weight: bold;
+  color: #484848;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.bagg-wrn {
+  font-size: 11px;
+  color: #484848;
+}
+
+.bagg-chk {
+  font-weight: bold;
+  font-size: 11px;
+  color: #484848;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.bagg-chk li {
+  float: left;
+  line-height: 30px;
+  list-style: none;
+  width: 50%;
+}
+
+.bagg-chk li img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.flt-wrapper {
+  border: 1px solid #ccc;
+  padding: 10px 5px;
+}
+
+.flt-hd {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #484848;
+}
+
+.flt-grid {
+  margin-top: 20px;
+  clear: both;
+}
+
+.flt-grid input {
+  opacity: 0;
+  margin: 0;
+  width: 10px;
+  visibility: hidden;
+}
+
+.flt-grid input+label {
+  width: 16px;
+  height: 16px;
+  float: left;
+  border: 1px solid #4a90df;
+  position: relative;
+  border-radius: 50%;
+}
+
+.flt-grid input:checked+label:before {
+  left: 4px;
+  top: 4px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4a90df;
+}
+
+.flt-grid .icn {
+  float: left;
+}
+
+.flt-right {
+  overflow: hidden;
+}
+
+.flt-right .clm {
+  width: 85px;
+  float: left;
+}
+
+.flt-right .clm .flt-des {
+  font-size: 15px;
+  display: inline;
+  color: #575757;
+  font-weight: bold;
+}
+
+.flt-right .clm .flt-des-time {
+  font-size: 15px;
+  display: inline;
+  font-weight: bold;
+  color: #000;
+}
+
+.flt-right .clm-right {
+  float: right;
+}

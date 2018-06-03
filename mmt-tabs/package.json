@@ -1,0 +1,25 @@
+{
+  "name": "mmt-tabs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "parsleyjs": "^2.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-form-validation": "^1.1.3",
+    "react-formstate": "^0.6.14",
+    "react-formstate-validation": "^0.3.8",
+    "react-scripts": "1.1.4",
+    "react-tabs": "^2.2.2",
+    "react-validation": "^3.0.7",
+    "validator": "^10.2.0",
+    "vee-validate": "^2.1.0-beta.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
