@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
 class JourneyDetails extends Component {
-  constructor(props){
-    super(props);
-    console.log(this.props)
-  }
   stoppage(stoppage){
     if(stoppage){
       return(<div className="flt-stopagge">{stoppage}</div>);

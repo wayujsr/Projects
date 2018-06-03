@@ -120,7 +120,7 @@ class FlightDetails extends Component {
               <div className="date">{elm.BookingDate}</div>
               <div className="time">{elm.BookingTime}</div>
             </div>
-            <div className="flight-icon"><img src={elm.FlightImg} /></div>
+            <div className="flight-icon"><img src={elm.FlightImg} alt="logo" /></div>
             <div className="flight-name">{elm.FlightName}</div>
 
             <div className="flight-details">

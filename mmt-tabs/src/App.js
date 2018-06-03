@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Tab2Question from './Tab2Question';
@@ -37,8 +36,6 @@ class App extends Component {
   }
 
   updateList(stack){
-    console.log(this)
-    window.console.log(stack);
     let fullArray = this.state.commentList;
     fullArray.push(stack);
     this.setState({commentList: fullArray});

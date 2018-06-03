@@ -6,7 +6,6 @@ import Input from 'react-validation/build/input';
 
 
 const required = (value) => {
-  window.console.log(this);
 
   if (!value.toString().trim().length) {
     return <span className="error"> This field is required.</span>
